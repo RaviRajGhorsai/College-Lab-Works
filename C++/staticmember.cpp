@@ -2,7 +2,7 @@
 using namespace std;
 
 class sample{
-    static int count;
+    static int count;  //declaration
     public:
         sample(){
             count++;
@@ -14,7 +14,7 @@ class sample{
         }
 };
 
-int sample :: count;
+int sample :: count;  //defination
 
 int main()
 {
